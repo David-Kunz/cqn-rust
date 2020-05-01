@@ -1,0 +1,11 @@
+[package]
+name = "cqn"
+version = "0.1.0"
+authors = ["D065023 <david.kunz@sap.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.106" , features = ["derive"] }
+serde_json = "1.0"
